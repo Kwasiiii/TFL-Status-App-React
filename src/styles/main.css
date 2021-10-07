@@ -1,0 +1,95 @@
+@import url(//db.onlinewebfonts.com/c/56d537a6559d9eab06614b7eb602f8ee?family=Johnston100W03-Light);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #113b92;
+  color: white;
+  font-family: "johnston100W03-Light";
+}
+
+.grid{
+  width: 728.47px;
+}
+
+/* .tflLine h4{ */
+  /* border-bottom: 1px solid white; */
+  /* cursor: pointer; */
+/* } */
+
+#bakerloo{
+  background-color: #894e24;
+}
+
+#central{
+  background-color: #dc241f;
+}
+
+#circle{
+  background-color: #ffce00;
+}
+
+#district{
+  background-color: #007229;
+}
+
+#hammersmith-city{
+  background-color: #d799af;
+}
+
+#jubliee{
+  background-color: #6a7278;
+}
+
+#metropolitan{
+  background-color: #751056;
+}
+
+#northern{
+  background-color: #000;
+}
+
+#piccadilly{
+  background-color: #0019a8;
+}
+
+#victoria{
+  background-color: #00a0e2;
+}
+
+#waterloo-city{
+  background-color: #76d0bd;
+}
+
+#jubilee{
+  background-color: #6a7278;
+}
+
+.logo{
+  background-image: url('/src/assets/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 42px;
+  width: 52px;
+  position: relative;
+  top: 17px;
+}
+
+.logo-container{
+  display: flex;
+  
+}
+
+h1{
+  margin-left: 10px;
+}
+
+.status{
+  text-align: center;
+  font-style: italic;
+}
